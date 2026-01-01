@@ -1,10 +1,10 @@
-name: Terraform - Create Batman User
+name: Terraform - Create ironman User
 
 on:
   push:
     branches: [ main ]
     paths:
-      - "batman-user/**"
+      - "ironman-user/**"
   workflow_dispatch:
 
 permissions:
