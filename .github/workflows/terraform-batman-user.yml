@@ -7,7 +7,7 @@ on:
       - "batman-user/**"
   workflow_dispatch:
 
-# REQUIRED for OIDC
+# Top-level permissions required for OIDC
 permissions:
   id-token: write
   contents: read
